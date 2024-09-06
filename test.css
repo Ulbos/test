@@ -35,7 +35,7 @@ html, body {
 
 .slider {
     display: flex;
-    width: 100%;
+    width: 255%; 
     height: 100%;
 }
 
@@ -104,12 +104,12 @@ html, body {
         width: 31%;
     }
     .slide img {
-        object-fit: contain;
-        width: 87%;
+        object-fit: contain; 
+        width: 70%;
     }
 }
 @media screen and (max-width:650px){
     .slide {
-        width: 58%;
+        width: 45%;
     }
 }
